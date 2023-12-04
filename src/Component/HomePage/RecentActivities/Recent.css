@@ -1,0 +1,97 @@
+.recentActivitys{
+    width: 100%;
+}
+.recent-activity{
+    overflow-y: hidden;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+  }
+  .recent-activity table {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  
+  .logo-image {
+    height: 100%;
+    width: 30px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 50%;
+  }
+  thead {
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+  }
+  tbody {
+    overflow: auto;
+  }
+  tr {
+    white-space: nowrap;
+    height: 55px;
+  }
+  th {
+    color: black;
+    font-weight: normal !important;
+    border-bottom: none !important;
+  }
+  .item-name {
+    white-space: nowrap;
+  }
+  
+  .name {
+    background-color: white;
+  }
+  
+  .size {
+    font-size: 18px;
+    font-weight: 400 !important;
+  }
+  .watchlist-star {
+    font-size: 20px;
+  }
+  @media (max-width: 1000px) {
+    .recentActivitys{
+      width: 100%;
+    }
+  }
+  @media(max-width: 800px) {
+    .recentActivitys{
+      width: 100%;
+    }
+  }
+  @media(max-width: 600px) {
+    .recentActivitys {
+      width: 100%;
+    }
+  }
+  @media(max-width: 500px) {
+    .recent-activity h1 {
+      font-size: 25px;
+    }
+    .logo-image {
+      width: 28px;
+    }
+    .watchlist-star {
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .recentActivitys {
+      top: 610px;
+    }
+    .logo-image {
+      width: 26px;
+    }
+    .watchlist-star {
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .recentActivitys {
+      top: 630px;
+    }
+  }

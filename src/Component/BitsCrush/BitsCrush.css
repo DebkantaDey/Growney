@@ -1,0 +1,27 @@
+.bits-crush{
+    width: auto;
+    margin-top: 50px;
+}
+.bits-crush h1{
+    margin-left: 70px;
+    width: 250px;
+}
+.bits-crush div{
+    display: flex;
+    width: 250px;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.bits-crush div p{
+    font-size: 19px;
+}
+.bits-crush div span{
+    font-size: 20px;
+}
+.about{
+    width: 380px;
+    margin-left: 70px;
+}
+.about div i{
+    margin-right: 10px;
+}

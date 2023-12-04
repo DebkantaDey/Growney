@@ -1,0 +1,59 @@
+.main-container {
+    width: 90%;
+    height: auto;
+}
+.website_heading {
+    font-size: 35px;
+}
+.active,
+.inactive {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    border: 1px solid #f7931a;
+}
+.active {
+    background-color: #f7931a;
+    color: white;
+    font-weight: 700;
+}
+.buttons-area {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.button-group {
+    white-space: nowrap;
+    display: flex;
+    gap: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    display: none;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}

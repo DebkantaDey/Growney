@@ -1,0 +1,27 @@
+.xterio{
+    width: auto;
+    margin-top: 50px;
+}
+.xterio h1{
+    margin-left: 70px;
+    width: 250px;
+}
+.xterio div{
+    display: flex;
+    width: 250px;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.xterio div p{
+    font-size: 19px;
+}
+.xterio div span{
+    font-size: 20px;
+}
+.about{
+    width: 380px;
+    margin-left: 70px;
+}
+.about div i{
+    margin-right: 10px;
+}
